@@ -1,0 +1,71 @@
+body{
+
+  
+
+  background: url('https://dl.dropbox.com/s/4as9w8yjneebf3n/images%20%288%29~01.jpg');
+
+  background-position: center;
+
+  background-attachment: fixed;
+
+  -webkit-background-size: cover;
+
+  -moz-background-size: cover;
+
+  -o-background-size: cover;
+
+  background-size: cover;
+
+  
+
+}
+
+#container{
+
+  
+
+  background: black;
+
+  color: white;
+
+  width: 580px;
+
+  padding: 15px;
+
+}
+
+h1{
+
+  
+
+  font-size: 110px;
+
+  font-family: 'Bebas Neue', cursive;
+
+  letter-spacing:3px;
+
+}
+
+h2{
+
+  
+
+  background: #CAE7F7;
+
+  color: black;
+
+  padding: 5px;
+
+  border-radius: 5px;    
+
+}
+
+a{
+
+  
+
+  text-decoration: none;
+
+  color : #60B7F7;
+
+}
