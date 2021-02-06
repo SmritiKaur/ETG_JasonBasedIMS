@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+        <!--<meta name="viewport" content="width=device-width", initial-scale=1.0">-->
+          <meta name="keywords" content="Caesar Cipher, RSA Algorithm, Fermat's Little Theorem">
+            <meta name="description" content="Number Theory used in Cryptography">
+              <link rel="stylesheet" href="style.css">
+                <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+          <title>Mathematics In Cryptography</title>  
+    </head>
+    <body>
+      <div id="container">
+        <h1>Cryptography</h1>
+        <p>Cryptography is an art of writing or solving codes.It is a technique to provide message confidentially and involves the process of encryption and decryption where encryption is the process of encoding a message in such a way that only authorized parties can access it while decryption is the process of transforming encrypted information known as ciphertext back to plaintext or the original data.</p>
+        <h2>Mathematics In Cryptography</h2>
+        <p>Any maths that is simple to compute but hard to reverse like multiplication or factoring can be used in cryptography.</p>
+        <ul>
+          <li>Number Theory</li>
+          <li>Combinatorics</li>
+          <li>Probability Theory</li>
+          <li>Statistical Analysis</li>
+          <li>Information Theory</li>
+          <li>Real Analysis and Calculus(occassionally)</li> 
+          <li>Fourier Analysis</li>
+          <li>Complex Analysis (less often)</li>
+        </ul>
+        <h2>Caesar Cipher</h2>
+        <p>The Caesar Cipher is one of the earliest known and simplest ciphers. It is a type of substitution cipher in which each letter in the plaintext is shifted a certain number of places down the alphabet.<br/>The problem with shift cipher is that it is fairly easy to break esp. using a computer just by analyzing which letter appear most frequently in the encoded message. So, to solve this problem a more powerful method of encryption known as the RSA Algorithm that is very difficult for even the most powerful supercomputer to break was invented by 3 professors of MIT named Ron Rivest, Adi Shamir and Leonard Adleman.</p>
+        <h2>RSA Algorithm</h2>
+        <p>RSA is a consequence of <a href= "https://en.m.wikipedia.org/wiki/Fermat's_little_theorem"><b>Fermat's Little Theorem</b></a> which states that if <b>p</b> is a prime number then for any integer <b>a</b>, the number <b>a^(p-a)</b> is an integer multiple of <b>p</b> i.e., <b>a^p = a(mod p)</b></p>
+        <p>So, how Fermat's Little Theorem is used in RSA. RSA uses key encryption i.e., it uses two keys - Public key and the Private key. We use Fermat's Little Theorem in th encryption and decryption scheme to calculate the numbers <b>e</b> and <b>d</b>.</p>
+        <p><b>Function used for Encryption</b><br/>(m^e)mod n = c</p>
+        <p><b>Function used for Decryption</b><br/>(c^d)mod n = m</p>
+        <p><Public key - (e,n)<br/>Private key - d</p>
+        <p>where <b>m</b> is the original message to be encrypted and <b>c</b> is the ciphertext.</p>
+        <h2>RSA As A One Way Trapdoor Function</h2>
+        <p>RSA is also known as the one way trapdoor function because we cannot undo the encryption function until we know the trapdoor and over here number <b>n</b> acts as a trapdoor because of the prime factorization it is very difficult to find <b>n</b> as it is easy to find the product of two prime numbers but it is very hard to take a very large product and factor it to find the two primes that compose it.</p>
+        <h2>Conclusion</h2>
+        <p>Almost all areas of mathematics are used in the study and application of cryptography with number theory being a firm bedrock supporting up the rest.</p>
+        <h2>References</h2>
+        <ul>
+          <li>For more information on RSA Algorithm you can view this <a href="https://youtu.be/Z8M2BTscoD4">video</a> by Anthony Vance</li>
+          <iframe width="495" height="315" src="https://www.youtube.com/embed/Z8M2BTscoD4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <li>Or if you want you can follow up this course on Coursera <a href="https://www.coursera.org/learn/mathematical-foundations-cryptography">Mathematical Foundations For Cryptography</a></li>
+          <li>Or you can also check this answer on <a href="https://www.quora.com/What-are-all-the-fields-of-math-used-in-cryptography-besides-algebra">Quora</a></li>
+        </ul>  
+        <a href="https://twitter.com/coursera?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="https://dl.dropbox.com/s/jv0pqw90xacoqyb/social-twitter.png" alt="Twitter"></a>
+        <a href="https://www.linkedin.com/company/coursera"><img width="32px" src = "https://dl.dropbox.com/s/pndkz4ld18qjw1a/LI-In-Bug~02.png" alt="LinkedIn"></a>
+        <br/>
+        <a href="https://onemonth.com/dashboard">Made @ One Month</a>
+      </div> 
+    </body>
+  </html>
