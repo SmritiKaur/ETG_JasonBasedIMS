@@ -10,9 +10,9 @@ Consists of 7 basic functionalities :-
 
 4.) Informs the user how much shortage of products they have.
 
-5.) If the quantity of product that the user wants is more that available in the stock then user has to input either "yes" or "no" depending upon whether they want to buy all the products in the stock or not and displays the total bill accordingly.
+5.) If the quantity of product that the user wants is more than that available in the stock then user has to input either "yes" or "no" depending upon whether they want to buy all the products in the stock or not and displays the total bill accordingly.
 
-6.) Displays the amount to be paid the customer.
+6.) Displays the amount to be paid by the customer.
 
 7.) Updates the quantity in stock in the inventory accordingly (record.json)
 
