@@ -14,7 +14,8 @@ Consists of 7 basic functionalities :-
 
 6.) Displays the amount to be paid by the customer.
 
-7.) Updates the quantity in stock in the inventory accordingly (record.json)
+7.) Updates the quantity of stock in the inventory ( record.json) after some items have been purchased by the customer.
+
 
 
 
